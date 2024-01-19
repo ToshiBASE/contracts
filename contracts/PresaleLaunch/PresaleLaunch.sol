@@ -430,6 +430,18 @@ contract Presale is Ownable {
     PresaleParams public presaleParams;
 
     string[] public urls;
+      //url[0] = logoURL;
+    //url[1] = websiteURL;
+    //url[2] = telegramURL;
+    //url[3] = twitterURL;
+    //url[4] = githubURL;
+    //url[5] = instagramURL;
+    //url[6] = facebookURL;
+    //url[7] = redditURL;
+    //url[8] = discordURL;
+    //url[9] = youtubeURL;
+    //url[10] = description;
+    
     mapping(address => uint256) public contributions;
 
     enum State {Inactive, Active, Successful, Failed}
